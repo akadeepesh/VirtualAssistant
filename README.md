@@ -22,7 +22,7 @@ Welcome to the Virtual Assistant project, designed to streamline your daily task
 1. **Clone the Repository**: Start by cloning this repository to your local machine using the following command:
 
    ```
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/akadeepesh/VirtualAssistant.git
    ```
 
 2. **Setting Up Backend and Frontend**:
