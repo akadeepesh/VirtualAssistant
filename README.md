@@ -31,7 +31,7 @@ Welcome to the Virtual Assistant project, designed to streamline your daily task
 
 3. **Running the Application**:
    - Navigate to the root directory, run `pip install -r requirements.txt` to download required packages.
-   - In the `backend` directory, Navigate to the location of manage.py and run the Django server by python manage.py runserver
+   - In the `backend` directory, Navigate to the location of manage.py and run the Django server by `python manage.py runserver`
 
 4. **Interact with the Virtual Assistant**:
    - Access the web page to interact with the Virtual Assistant.
