@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+.container {
+  margin: 50px auto;
+  max-width: 400px;
+}
+
+#startBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2196F3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#startBtn:hover {
+  background-color: #0b7dda;
+}
+
+#startBtn:focus {
+  outline: none;
+}
+
+#statusText {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#startIcon {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#commandContainer {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#commandDisplay {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#commandDisplay span {
+  margin-right: 5px;
+}

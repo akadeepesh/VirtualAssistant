@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="{% static 'Assets/favicon.ico' %}">
+    <title>Voice Assistant</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Voice Command</h1>
+      <form method="post">
+        {% csrf_token %}
+        <button type="submit" id="startBtn">
+          <span id="startIcon">🎙️</span> Start Recognition
+        </button>
+      </form>
+      <div id="commandContainer">
+        {% if command %}
+          <div id="commandDisplay">
+            <span>Getting Results For:</span> {{ command }} <br>
+            <span>Output is:</span> {{ Output }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </body>
+</html>

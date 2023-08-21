@@ -1,0 +1,47 @@
+{
+  "name": "speak-up",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "csrf-cookie": "^0.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.8.9",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postbuild": "copy D:\\College\\VirtualAssistant\\VirtualAssistant\\speak-up-backend\\DC_Assistant\\templates\\Whatsapp.html D:\\College\\VirtualAssistant\\VirtualAssistant\\speak-up-frontend\\build && copy D:\\College\\VirtualAssistant\\VirtualAssistant\\speak-up-backend\\DC_Assistant\\static\\whatsapp.css D:\\College\\VirtualAssistant\\VirtualAssistant\\speak-up-frontend\\build\\static\\css && copy D:\\College\\VirtualAssistant\\VirtualAssistant\\speak-up-backend\\DC_Assistant\\static\\Functions.js D:\\College\\VirtualAssistant\\VirtualAssistant\\speak-up-frontend\\build\\static\\js && xcopy /E /I D:\\College\\VirtualAssistant\\VirtualAssistant\\speak-up-backend\\DC_Assistant\\static\\Assets D:\\College\\VirtualAssistant\\VirtualAssistant\\speak-up-frontend\\build\\static\\Assets"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
+  }
+}

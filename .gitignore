@@ -1,0 +1,9 @@
+.vscode
+dcenv
+VirtualAssistant/.env
+VirtualAssistant/speak-up-backend/VirtualAssistant/backup.txt
+VirtualAssistant/speak-up-backend/DC_Assistant/__pycache__
+VirtualAssistant/speak-up-backend/VirtualAssistant/__pycache__
+VirtualAssistant/speak-up-backend/DC_Assistant/migrations/__pycache__
+Procfile
+runtime.txt
