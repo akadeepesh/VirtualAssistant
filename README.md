@@ -31,11 +31,10 @@ Welcome to the Virtual Assistant project, designed to streamline your daily task
    ```
 
 2. **Setting Up Backend and Frontend**:
-   - Navigate to the `backend` directory for the Django backend setup.
-   - Navigate to the `frontend` directory for the React.js frontend setup.
+   - Navigate to the `backend` directory for the Django setup.
 
 3. **Running the Application**:
-   - Navigate to the root directory, run `pip install -r requirements.txt` to download required packages.
+   - Navigate to the root directory where requirements.txt exists, run `pip install -r requirements.txt` to download required packages.
    - In the `backend` directory, Navigate to the directory having manage.py file and run the Django server with command `python manage.py runserver`
 
 4. **Interact with the Virtual Assistant**:
