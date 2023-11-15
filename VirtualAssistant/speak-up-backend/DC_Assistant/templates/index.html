@@ -2,9 +2,13 @@
 {% load static %}
 <html>
   <head>
-    <link rel="icon" type="image/x-icon" href="{% static 'Assets/favicon.ico' %}">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="{% static 'Assets/favicon.ico' %}"
+    />
     <title>Voice Assistant</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
   </head>
   <body>
     <div class="container">
@@ -17,10 +21,10 @@
       </form>
       <div id="commandContainer">
         {% if command %}
-          <div id="commandDisplay">
-            <span>Getting Results For:</span> {{ command }} <br>
-            <span>Output is:</span> {{ Output }}
-          </div>
+        <div id="commandDisplay">
+          <span>Getting Results For:</span> {{ command }} <br />
+          <span>Output is:</span> {{ Output }}
+        </div>
         {% endif %}
       </div>
     </div>
